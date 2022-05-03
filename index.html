@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="libs/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Азбука</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo logo">
+                    <a href="index.html">
+                        <img src="img/svg/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header__menu jump-menu header-menu-js">
+                    <div class="jump-menu__wrapper">
+                        <div class="jump-menu__logo">
+                            <a href="index.html">
+                                <img src="img/svg/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <nav class="header-nav jump-menu__nav">
+                            <ul class="header-nav__list">
+                                <li class="header-nav__item">
+                                    <a href="#catalog" class="header-nav__link">
+                                        Планировки
+                                    </a>
+                                </li>
+                                <li class="header-nav__item">
+                                    <a href="#location" class="header-nav__link">
+                                        Расположение
+                                    </a>
+                                </li>
+                                <li class="header-nav__item">
+                                    <a href="#calculator" class="header-nav__link">
+                                        Ипотека
+                                    </a>
+                                </li>
+                                <li class="header-nav__item">
+                                    <a href="#swipers-tabs" class="header-nav__link">
+                                        Ход строительства
+                                    </a>
+                                </li>
+                                <li class="header-nav__item">
+                                    <a href="#docs" class="header-nav__link">
+                                        Документы
+                                    </a>
+                                </li>
+                                <li class="header-nav__item">
+                                    <a href="#" class="header-nav__link">
+                                        Вакансии
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-phone jump-menu__phone">
+                            <div class="header-phone__icon">
+                                <svg class="icon-svg">
+                                    <use xlink:href="./img/svg/sprite.svg#phone"></use>
+                                </svg>
+                            </div>
+                            <div class="header-phone__links">
+                                <a href="tel:+78007654357" class="header-phone__link">
+                                    +7 (800) 765-43-57
+                                </a>
+                                <a href="#" class="header-phone__link header-phone__link_red modal-link" data-target="consultation">
+                                    Перезвоните мне
+                                </a>
+                            </div>
+                        </div>
+                        <div class="jump-menu__close menu-close-js">
+                            <img src="img/close.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button class="header__burger burger-js">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__content">
+                        <div class="intro__head intro-head">
+                            <div class="intro-head__item">
+                                <div class="intro-head__title">
+                                    Застройщик
+                                </div>
+                                <div class="intro-head__text">
+                                    ООО «Флагман»
+                                </div>
+                            </div>
+                            <div class="intro-head__item intro-head__item_orange">
+                                <div class="intro-head__title">
+                                    Класс жилья
+                                </div>
+                                <div class="intro-head__text">
+                                    Комфорт
+                                </div>
+                            </div>
+                            <div class="intro-head__item intro-head__item_green">
+                                <div class="intro-head__title">
+                                    Срок сдачи
+                                </div>
+                                <div class="intro-head__text">
+                                    1 квартал 2022
+                                </div>
+                            </div>
+                        </div>
+                        <div class="intro__title">
+                            <h1>ЖК Западная резиденция</h1>
+                        </div>
+                        <div class="intro__text">
+                            Ростов-на-Дону, ул. Текучева, 47
+                        </div>
+                        <div class="intro__table intro-table">
+                            <div class="intro-table__row">
+                                <div class="intro-table__title">
+                                    Студия <span>от 25.50 м<sup>2</sup></span>
+                                </div>
+                                <div class="intro-table__value">
+                                    1 325 000 ₽
+                                </div>
+                            </div>
+                            <div class="intro-table__row">
+                                <div class="intro-table__title">
+                                    1-комн. <span>от 33.75 м<sup>2</sup></span>
+                                </div>
+                                <div class="intro-table__value">
+                                    1 325 000 ₽
+                                </div>
+                            </div>
+                            <div class="intro-table__row">
+                                <div class="intro-table__title">
+                                    2-комн. <span>от 49.37 м<sup>2</sup></span>
+                                </div>
+                                <div class="intro-table__value">
+                                    1 325 000 ₽
+                                </div>
+                            </div>
+                            <div class="intro-table__row">
+                                <div class="intro-table__title">
+                                    3-комн. <span>от 67.56 м<sup>2</sup></span>
+                                </div>
+                                <div class="intro-table__value">
+                                    1 325 000 ₽
+                                </div>
+                            </div>
+                            <div class="intro-table__row">
+                                <div class="intro-table__title">
+                                    <a href="#">Ипотека</a>
+                                </div>
+                                <div class="intro-table__value intro-table__value_no-line">
+                                    <a href="#">от 9 950 ₽/мес</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="intro__btn page-btn">
+                            Подобрать квартиру
+                        </a>
+                    </div>
+                    <div class="intro__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/intro-swiper-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="intro__swiper-controls">
+                            <div class="intro__swiper-counter swiper-counter">
+                                <span class="swiper-counter__cur"></span>
+                                <span class="swiper-counter__all"></span>
+                            </div>
+                            <div class="intro__swiper-btns">
+                                <div class="intro__swiper-prev">
+                                    <svg class="icon-svg">
+                                        <use xlink:href="./img/svg/sprite.svg#arrow_left"></use>
+                                    </svg>
+                                </div>
+                                <div class="intro__swiper-next">
+                                    <svg class="icon-svg">
+                                        <use xlink:href="./img/svg/sprite.svg#arrow_right"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination intro__swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="features__inner">
+                    <div class="features__item">
+                        <div class="features__icon">
+                            <img src="img/features-1.png" alt="">
+                        </div>
+                        <div class="features__title">
+                            Домов
+                        </div>
+                        <div class="features__num count-number-js" data-start="0" data-end="2"></div>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__icon">
+                            <img src="img/features-2.png" alt="">
+                        </div>
+                        <div class="features__title">
+                            Этажность
+                        </div>
+                        <div class="features__num count-number-js" data-start="0" data-end="20"></div>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__icon">
+                            <img src="img/features-3.png" alt="">
+                        </div>
+                        <div class="features__title">
+                            Квартир
+                        </div>
+                        <div class="features__num count-number-js" data-start="0" data-end="225"></div>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__icon">
+                            <img src="img/features-4.png" alt="">
+                        </div>
+                        <div class="features__title">
+                            Свободно
+                        </div>
+                        <div class="features__num count-number-js" data-start="0" data-end="115"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="builder">
+            <div class="about__item">
+                <div class="about__bg">
+                    <img src="img/about-bg-1.jpg" alt="">
+                </div>
+                <div class="about__content">
+                    <div class="section-title about__title">
+                        <h2>О жилом комплексе</h2>
+                    </div>
+                    <div class="about__text">
+                        <p><b>Жилой комплекс "360" - жилой комплекс комфорт-класса, для тех, кто ценит свое время и привык быть в центре событий</b></p>
+                        <p>Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности играет важную роль в формировании систем массового участия. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности играет важную роль в формировании модели развития.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about__item">
+                <div class="about__bg">
+                    <img src="img/about-bg-2.jpg" alt="">
+                </div>
+                <div class="about__content">
+                    <div class="section-title about__title">
+                        <h2>О застройщике</h2>
+                    </div>
+                    <div class="about__text">
+                        <p><b>Компания работает на рынке с 2007 года и специализируется  сегменте строительства качественного жилья комфорт-класса</b></p>
+                        <p>Идея создать компанию, которая будет строить жильё концептуально нового формата, с особой семейной атмосферой, где все необходимое – «под рукой», тесно связана со сформировавшимся спросом среди украинцев на комплексы, совмещающие преимущества жизни в мегаполисе.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grid-list">
+            <div class="container">
+                <div class="grid-list__inner">
+                    <div class="section-title grid-list__title">
+                        <h2>Преимущества <br>
+                            жилого комплекса</h2>
+                        <span class="title-text">
+                            Жилой комплекс <br>
+                            комфорт класса
+                        </span>    
+                    </div>
+                    <div class="grid-list__list">
+                        <div class="grid-list__item grid-item grid-item-1 grid-item_blue">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_1.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_green grid-item_no-bg">
+                            <div class="grid-item__title">
+                                <h3>3 МИНУТЫ <br>
+                                ДО ОСТАНОВКИ</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                В пешей 3-минутной доступности находится остановка «Солнцево»
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item-2 grid-item_red">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_2.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка - Московское, Пулковское шоссе
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ПАРКОВАЯ <br>
+                                ЗОНА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                В пешей доступности ТЦ "Карусель", "Метро", "Лето", "Золотой Вавилон"
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item-2 grid-item_blue grid-item_no-bg">
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_yellow grid-item_no-bg">
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item-2 grid-item_red">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_2.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item-2 grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item-1 grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                        <div class="grid-list__item grid-item grid-item_yellow">
+                            <div class="grid-item__bg">
+                                <img src="img/grid-list_3.jpg" alt="">
+                            </div>
+                            <div class="grid-item__title">
+                                <h3>ТРАНСПОРТНАЯ <br>
+                                РАЗВЯЗКА</h3>
+                            </div>
+                            <p class="grid-item__text">
+                                Хорошая транспортная развязка
+                                Стачки / Зорге
+                                ул. Малиновского рядом
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="location bg-gray" id="location">
+            <div class="container">
+                <div class="location__inner">
+                    <div class="location__content">
+                        <div class="section-title location__title">
+                            <h2>Расположение</h2> 
+                        </div>
+                        <div class="location__text">
+                            <p><b>Важная составляющая при выборе дома - его расположение!</b></p>
+                            <p>Что нужно именно вам? Школа, десткий сад, транспортная развязка, магазины, места отдыха и развлечений, парковые зоны</p>
+                        </div>
+                        <div class="location__checkboxes">
+                            <div class="checkbox-group">
+                                <input type="checkbox" class="checkbox-group__input" id="checkbox-1">
+                                <label for="checkbox-1" class="checkbox-group__label">
+                                    <span class="checkbox-group__label-box"></span>
+                                    <span class="checkbox-group__label-text">
+                                        Детские сады
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" class="checkbox-group__input" id="checkbox-2">
+                                <label for="checkbox-2" class="checkbox-group__label">
+                                    <span class="checkbox-group__label-box"></span>
+                                    <span class="checkbox-group__label-text">
+                                        Школы
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" class="checkbox-group__input" id="checkbox-3">
+                                <label for="checkbox-3" class="checkbox-group__label">
+                                    <span class="checkbox-group__label-box"></span>
+                                    <span class="checkbox-group__label-text">
+                                        Магазины
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" class="checkbox-group__input" id="checkbox-4">
+                                <label for="checkbox-4" class="checkbox-group__label">
+                                    <span class="checkbox-group__label-box"></span>
+                                    <span class="checkbox-group__label-text">
+                                        Развлечения
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" class="checkbox-group__input" id="checkbox-5">
+                                <label for="checkbox-5" class="checkbox-group__label">
+                                    <span class="checkbox-group__label-box"></span>
+                                    <span class="checkbox-group__label-text">
+                                        Парки
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" class="checkbox-group__input" id="checkbox-6">
+                                <label for="checkbox-6" class="checkbox-group__label">
+                                    <span class="checkbox-group__label-box"></span>
+                                    <span class="checkbox-group__label-text">
+                                        Поликлиники
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location__map">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aac1f2c90c649297e6c66b68955b3c5617d724f42828d501bfe9718044d9af683&amp;source=constructor" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog" id="catalog">
+            <div class="container">
+                <div class="catalog__inner">
+                    <div class="section-title catalog__title">
+                        <h2>Планировки <br> квартир</h2>
+                        <span class="title-text">
+                            Жилой комплекс <br>
+                            комфорт класса
+                        </span>
+                    </div>
+                    <div class="catalog__tabs catalog-tabs tabs-js">
+                        <div class="catalog-tabs__head">
+                            <div class="catalog-tabs__nav tabs-nav">
+                                <a href="#" class="catalog-tabs__link tabs-link active" data-tabs-link="0">
+                                    Студии
+                                </a>
+                                <a href="#" class="catalog-tabs__link tabs-link" data-tabs-link="1">
+                                    1-комнатные
+                                </a>
+                                <a href="#" class="catalog-tabs__link tabs-link" data-tabs-link="2">
+                                    2-комнатные
+                                </a>
+                                <a href="#" class="catalog-tabs__link tabs-link" data-tabs-link="3">
+                                    3-комнатные
+                                </a>
+                            </div>
+                        </div>
+                        <div class="catalog-tabs__swipers tabs-content">
+                            <div class="catalog-tabs__pane tabs-pane display show" data-tabs-pane="0">
+                                <div class="catalog-tabs__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link modal-link" data-target="apartaments">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    Студия
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn modal-link" data-target="apartaments">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    Студия
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    Студия
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    Студия
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-tabs__pagination swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__pane tabs-pane" data-tabs-pane="1">
+                                <div class="catalog-tabs__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    1-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    1-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    1-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    1-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-tabs__pagination swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__pane tabs-pane" data-tabs-pane="2">
+                                <div class="catalog-tabs__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    2-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    2-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    2-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    2-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-tabs__pagination swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="catalog-tabs__pane tabs-pane" data-tabs-pane="3">
+                                <div class="catalog-tabs__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    3-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    3-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    3-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="catalog-card">
+                                                <div class="catalog-card__pic">
+                                                    <a href="#" class="catalog-card__link">
+                                                        <img src="img/kvartira-1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="catalog-card__title">
+                                                    3-комнатная
+                                                </div>
+                                                <p class="catalog-card__text">
+                                                    Площадь - 34,5 м<sup>2</sup>
+                                                </p>
+                                                <a href="#" class="catalog-card__btn">
+                                                    Узнать цену
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-tabs__pagination swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="catalog-tabs__btn page-btn">
+                            Начать бесплатный подбор
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="swipers-tabs bg-gray" id="swipers-tabs">
+            <div class="container">
+                <div class="swipers-tabs__inner tabs-js">
+                    <div class="swipers-tabs__content">
+                        <div class="section-title swipers-tabs__title">
+                            <h2>Ход строительства</h2>
+                        </div>
+                        <p class="swipers-tabs__text">
+                            Наблюдайте за ходом строительства <br>
+                            прямо у себя дома
+                        </p>
+                        <div class="swipers-tabs__nav tabs-nav">
+                            <a href="#" class="swipers-tabs__link tabs-link active" data-tabs-link="0">
+                                Март 2021
+                            </a>
+                            <a href="#" class="swipers-tabs__link tabs-link" data-tabs-link="1">
+                                Февраль 2021
+                            </a>
+                            <a href="#" class="swipers-tabs__link tabs-link" data-tabs-link="2">
+                                Март 2021
+                            </a>
+                            <a href="#" class="swipers-tabs__link tabs-link" data-tabs-link="3">
+                                Февраль 2021
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swipers-tabs__swipers tabs-content">
+                        <div class="swipers-tabs__pane tabs-pane display show" data-tabs-pane="0">
+                            <div class="swipers-tabs__swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swipers-tabs__pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="swipers-tabs__swiper tabs-pane" data-tabs-pane="1">
+                            <div class="swipers-tabs__swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swipers-tabs__pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="swipers-tabs__swiper tabs-pane swiper" data-tabs-pane="2">
+                            <div class="swipers-tabs__swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swipers-tabs__pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="swipers-tabs__swiper tabs-pane swiper" data-tabs-pane="3">
+                            <div class="swipers-tabs__swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/stage_2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swipers-tabs__pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quiz">
+            <div class="quiz__bg">
+                <img src="img/podbor_kvartiry_bg.jpg" alt="">
+            </div>
+            <div class="quiz__overlay"></div>
+            <div class="container">
+                <div class="quiz__inner">
+                    <div class="section-title quiz__title">
+                        <h2>Подобрать квартиру</h2>
+                    </div>
+                    <p class="quiz__text">
+                        Что Вам нужно при выборе новостройки?
+                    </p>
+                    <div class="quiz__wrapper">
+                        <div class="quiz__steps quiz-steps">
+                            <div class="quiz-steps__swiper swiper">
+                                <div class="quiz-steps__pagination swiper-pagination"></div>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="quiz-steps__item">
+                                            <div class="quiz-steps__head">
+                                                Какие объекты рядом Вам важны Какие объекты рядом Вам важны? 
+                                                <span> | Вопрос 1 из 7</span>
+                                            </div>
+                                            <div class="quiz-steps__checkboxes">
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-7">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-8">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-7">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-8">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-7">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-8">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="quiz-steps__item">
+                                            <div class="quiz-steps__head">
+                                                Какие объекты рядом Вам важны? 
+                                                <span> | Вопрос 2 из 7</span>
+                                            </div>
+                                            <div class="quiz-steps__checkboxes">
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-7">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-8">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="quiz-steps__item">
+                                            <div class="quiz-steps__head">
+                                                Какие объекты рядом Вам важны? 
+                                                <span> | Вопрос 3 из 7</span>
+                                            </div>
+                                            <div class="quiz-steps__checkboxes">
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-7">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-8">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="quiz-steps__item">
+                                            <div class="quiz-steps__head">
+                                                Какие объекты рядом Вам важны? 
+                                                <span> | Вопрос 4 из 7</span> 
+                                            </div>
+                                            <div class="quiz-steps__checkboxes">
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-9">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-10">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="quiz-steps__item">
+                                            <div class="quiz-steps__head">
+                                                Какие объекты рядом Вам важны? 
+                                                <span> | Вопрос 5 из 7</span> 
+                                            </div>
+                                            <div class="quiz-steps__checkboxes">
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-9">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-10">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="quiz-steps__item">
+                                            <div class="quiz-steps__head">
+                                                Какие объекты рядом Вам важны? 
+                                                <span> | Вопрос 6 из 7</span> 
+                                            </div>
+                                            <div class="quiz-steps__checkboxes">
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-9">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-10">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="quiz-steps__item">
+                                            <div class="quiz-steps__head">
+                                                Какие объекты рядом Вам важны? 
+                                                <span> | Вопрос 7 из 7</span> 
+                                            </div>
+                                            <div class="quiz-steps__checkboxes">
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-9">
+                                                    <label for="checkbox-7" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox-group">
+                                                    <input type="checkbox" name="calculator-radio" class="checkbox-group__input" id="checkbox-10">
+                                                    <label for="checkbox-8" class="checkbox-group__label">
+                                                        <span class="checkbox-group__label-box"></span>
+                                                        <span class="checkbox-group__label-text">
+                                                            Школы
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quiz-steps__btns">
+                                <div class="quiz-steps__btn quiz-steps__prev">
+                                    Назад
+                                </div>
+                                <div class="quiz-steps__btn quiz-steps__next">
+                                    Далее
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quiz__manager quiz-manager">
+                            <div class="quiz-manager__head">
+                                <div class="quiz-manager__pic">
+                                    <img src="img/manager.jpg" alt="">
+                                </div>
+                                <div class="quiz-manager__name">
+                                    Валентина
+                                </div>
+                                <div class="quiz-manager__position">
+                                    <i>Менеджер по недвижимости</i>
+                                </div>
+                            </div>
+                            <div class="quiz-manager__body">
+                                <div class="quiz-manager__text">
+                                    <p class="quiz-manager__text_small"><i>Ваши ответы помогут нам подобрать квартиры и планировочные решения, которые точно подходят именно Вам, и убрать из подкорки неподходящие варианты...</i></p>
+                                    <p>
+                                        <strong>
+                                            Не хотите отвечать на вопросы? <br>
+                                            Просто позвоните нам по номеру
+                                        </strong>
+                                    </p>
+                                    <a href="tel:+78007654357">+7 (800) 765-43-57</a>
+                                </div>
+                                <a href="#" class="quiz-manager__btn">
+                                    <span class="quiz-manager__btn-icon">
+                                        <svg class="icon-svg">
+                                            <use xlink:href="./img/svg/sprite.svg#chat"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="quiz-manager__btn-text">
+                                        Онлайн чат
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__inner">
+                    <div class="banner__wrapper">
+                        <div class="banner__pic">
+                            <img src="img/banner.png" alt="">
+                        </div>
+                        <div class="banner__head">
+                            Покупка <br>
+                            в рассрочку
+                        </div>
+                        <p class="banner__description">
+                            С другой стороны укрепление и развитие структуры влечет за собой процесс внедрения и модернизации системы 
+                        </p>
+                        <a href="#" class="banner__btn page-btn">
+                            Узнать подробности
+                        </a>
+                    </div>
+                    <div class="banner__content">
+                        <div class="section-title banner__title">
+                            <h2>Как купить квартиру</h2>
+                        </div>
+                        <div class="banner__text">
+                            <p>С другой стороны реализация намеченных плановых заданий позволяет оценить значение существенных финансовых и административных условий. Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.</p>
+                            <p>С другой стороны реализация намеченных плановых заданий позволяет оценить значение существенных финансовых и административных условий. Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="calculator" id="calculator">
+            <div class="container">
+                <div class="calculator__inner">
+                    <form action="#" class="calculator__form">
+                        <div class="calculator__conditions">
+                            <div class="section-title calculator__title">
+                                <h2>Рассчитать ипотеку</h2>
+                            </div>
+                            <p class="calculator__text">
+                                Зайдайте условия для подбора ипотеки
+                            </p>
+                            <div class="calculator__filters">
+                                <div class="calculator__filter form-group">
+                                    <label for="input-1" class="form-group__label">
+                                        Выберите банк
+                                    </label>
+                                    <select id="input-1" class="form-group__input calculator__select select">
+                                        <option value="Сбербанк">Сбербанк</option>
+                                        <option value="Альфабанк">Альфабанк</option>
+                                        <option value="Центр-Инвест">Центр-Инвест</option>
+                                    </select>
+                                </div>
+                                <div class="calculator__filter form-group range" data-min="1000000" data-start="2500000" data-max="5000000" data-unit="₽">
+                                    <label for="input-2" class="form-group__label">
+                                        Стоимость недвижимости
+                                    </label>
+                                    <input type="text" id="input-2" class="form-group__input calculator__input">
+                                    <div class="range__slider"></div>
+                                </div>
+                                <div class="calculator__filter form-group range" data-min="100000" data-start="500000" data-max="2000000" data-unit="₽">
+                                    <label for="input-3" class="form-group__label">
+                                        первоначальный взнос
+                                    </label>
+                                    <input type="text" id="input-3" class="form-group__input calculator__input">
+                                    <div class="range__slider"></div>
+                                </div>
+                                <div class="calculator__filter form-group range" data-min="5" data-start="10" data-max="25" data-unit="лет">
+                                    <label for="input-4" class="form-group__label">
+                                        Срок кредита
+                                    </label>
+                                    <input type="text" id="input-4" class="form-group__input calculator__input">
+                                    <div class="range__slider"></div>
+                                </div>
+                            </div>
+                            <div class="calculator__radios">
+                                <div class="checkbox-group">
+                                    <input type="radio" name="calculator-radio" class="checkbox-group__input" id="radio-1">
+                                    <label for="radio-1" class="checkbox-group__label">
+                                        <span class="checkbox-group__label-box"></span>
+                                        <span class="checkbox-group__label-text">
+                                            Семейная
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="radio" name="calculator-radio" class="checkbox-group__input" id="radio-2">
+                                    <label for="radio-2" class="checkbox-group__label">
+                                        <span class="checkbox-group__label-box"></span>
+                                        <span class="checkbox-group__label-text">
+                                            Военная
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="radio" name="calculator-radio" class="checkbox-group__input" id="radio-3">
+                                    <label for="radio-3" class="checkbox-group__label">
+                                        <span class="checkbox-group__label-box"></span>
+                                        <span class="checkbox-group__label-text">
+                                            Сельская
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="radio" name="calculator-radio" class="checkbox-group__input" id="radio-4">
+                                    <label for="radio-4" class="checkbox-group__label">
+                                        <span class="checkbox-group__label-box"></span>
+                                        <span class="checkbox-group__label-text">
+                                            Господдержка
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculator__result calculator-result">
+                            <div class="calculator-result__title">
+                                <h2>Вы выбрали</h2>
+                            </div>
+                            <div class="calculator-result__output calculator-output">
+                                <div class="calculator-output__item">
+                                    <span class="calculator-output__name">
+                                        Сумма кредита
+                                    </span>
+                                    <span class="calculator-output__value">
+                                        2 500 000 ₽
+                                    </span>
+                                </div>
+                                <div class="calculator-output__item">
+                                    <span class="calculator-output__name">
+                                        Ставка
+                                    </span>
+                                    <span class="calculator-output__value">
+                                        8.5%
+                                    </span>
+                                </div>
+                                <div class="calculator-output__item">
+                                    <span class="calculator-output__name">
+                                        Выбраный банк
+                                    </span>
+                                    <span class="calculator-output__value">
+                                        Сбербанк
+                                    </span>
+                                </div>
+                                <div class="calculator-output__item">
+                                    <span class="calculator-output__name">
+                                        Срок кредита
+                                    </span>
+                                    <span class="calculator-output__value">
+                                        15 лет
+                                    </span>
+                                </div>
+                                <div class="calculator-output__item">
+                                    <span class="calculator-output__name">
+                                        Первый взнос
+                                    </span>
+                                    <span class="calculator-output__value">
+                                        500 000 ₽
+                                    </span>
+                                </div>
+                                <div class="calculator-output__item">
+                                    <span class="calculator-output__name">
+                                        Дополнительно
+                                    </span>
+                                    <span class="calculator-output__value">
+                                        Семейная ипотека
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="calculator-result__fields">
+                                <input type="text" class="calculator-result__input" placeholder="ФИО">
+                                <input type="text" class="calculator-result__input input-phone-js" placeholder="Телефон">
+                            </div>
+                            <p class="calculator-result__form-text">
+                                Отправляя данную форму я даю согласие на обработку моих персональных данных
+                            </p>
+                            <button type="submit" class="calculator-result__btn page-btn">
+                                Отправить заявку
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <div class="partners__inner">
+                    <div class="section-title partners__title">
+                        <h2>Банки партнеры</h2>
+                    </div>
+                    <div class="partners__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/bank_1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/bank_2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/bank_3.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/bank_4.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/bank_5.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/bank_6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination partners__swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="docs" id="docs">
+            <div class="container">
+                <div class="docs__inner">
+                    <div class="section-title docs__title">
+                        <h2>Документы <br> по объекту</h2>
+                    </div>
+                    <div class="docs__content">
+                        <div class="docs__text">
+                            <p>Мы имеем все необходимые сертификаты и документы для лицензионной деятельности</p>
+                            <a href="#" class="docs__btn page-btn">Смотреть все</a>
+                        </div>
+                        <div class="docs__list">
+                            <div class="docs__item">
+                                <a href="#" class="docs__link">
+                                    Выписка из Единого государственного реестра
+                                </a>
+                            </div>
+                            <div class="docs__item">
+                                <a href="#" class="docs__link">
+                                    Выписка из Единого государственного реестра
+                                </a>
+                            </div>
+                            <div class="docs__item">
+                                <a href="#" class="docs__link">
+                                    Выписка из Единого государственного реестра
+                                </a>
+                            </div>
+                            <div class="docs__item">
+                                <a href="#" class="docs__link">
+                                    Выписка из Единого государственного реестра
+                                </a>
+                            </div>
+                            <div class="docs__item">
+                                <a href="#" class="docs__link">
+                                    Выписка из Единого государственного реестра
+                                </a>
+                            </div>
+                            <div class="docs__item">
+                                <a href="#" class="docs__link">
+                                    Выписка из Единого государственного реестра
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts__bg">
+                <img src="img/contacts_bg.jpg" alt="">
+            </div>
+            <div class="contacts-overlay"></div>
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="section-title contacts__title">
+                        <h2>Контакты</h2>
+                        <span class="title-text">
+                            Cвяжитесь с нами
+                        </span>   
+                    </div>
+                    <div class="contacts__list">
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <svg class="icon-svg">
+                                    <use xlink:href="./img/svg/sprite.svg#email"></use>
+                                </svg>
+                            </div>
+                            <p class="contacts__text">
+                                Пишите нам на
+                            </p>
+                            <div class="contacts__value">
+                                <a href="mailto:info@azbuka.ru" class="contacts__link">
+                                    info@azbuka.ru
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <svg class="icon-svg">
+                                    <use xlink:href="./img/svg/sprite.svg#location"></use>
+                                </svg>
+                            </div>
+                            <p class="contacts__text">
+                                Приходите в офис продаж
+                            </p>
+                            <div class="contacts__value">
+                                Еременко, 57
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__icon">
+                                <svg class="icon-svg">
+                                    <use xlink:href="./img/svg/sprite.svg#phone"></use>
+                                </svg>
+                            </div>
+                            <p class="contacts__text">
+                                Звоните по номеру
+                            </p>
+                            <div class="contacts__value">
+                                <a href="tel:+78007654357" class="contacts__link">
+                                    +7 (800) 765-43-57
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-form">
+            <div class="container">
+                <div class="contact-form__inner">
+                    <div class="section-title contact-form__title">
+                        <h2>Остались <br> вопросы?</h2>
+                        <span class="title-text">
+                            Если у вас есть вопросы или вы хотите записаться на просмотр квартиры, то заполните форму или обратитесь в отдел продаж
+                        </span>
+                    </div>
+                    <form action="#" class="contact-form__form">
+                        <div class="form-group">
+                            <label for="input-5" class="form-group__label">
+                                Имя
+                            </label>
+                            <input type="text" id="input-5" class="form-group__input" placeholder="Марина">
+                        </div>
+                        <div class="form-group">
+                            <label for="input-6" class="form-group__label">
+                                номер телефона
+                            </label>
+                            <input type="text" id="input-6" class="form-group__input input-phone-js" placeholder="+7 (928) 123-45-67">
+                        </div>
+                        <div class="contact-form__btn">
+                            <button type="submit" class="page-btn">
+                                Отправить заявку
+                            </button>
+                        </div>
+                        <p class="contact-form__text">
+                            Отправляю данную форму даю согласие на обработку персональных данных
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-top__inner">
+                    <div class="footer-top__logo">
+                        <img src="img/svg/footer-logo.svg" alt="">
+                    </div>
+                    <div class="footer-top__contacts footer-contacts">
+                        <div class="footer-contacts__item">
+                            <a href="tel:+78008004050">
+                                +7 (800) 800-40-50
+                            </a>
+                        </div>
+                        <div class="footer-contacts__item">
+                            <a href="mailto:info@azbuka.ru">
+                                info@azbuka.ru
+                            </a>
+                        </div>
+                        <div class="footer-contacts__item">
+                            Ростов-на-Дону, Вавилова, 49
+                        </div>
+                    </div>
+                    <nav class="footer-top__nav footer-nav">
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Застройщик
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Ход строительства
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Квартиры
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Документы
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Расположение
+                                </a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="#" class="footer-nav__link">
+                                    Оплата
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">   
+                ©2021. Азбука Новостроек
+            </div>
+        </div>
+    </footer>
+    <div class="modal" data-modal="consultation">
+        <div class="modal__overlay">
+            <div class="modal__wrapper">
+                <div class="modal__head">
+                    <div class="modal__close">
+                        <svg class="icon-svg">
+                            <use xlink:href="./img/svg/sprite.svg#close"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__title">
+                        <h3>У вас есть вопрос? <br> Мы можем позвонить Вам!</h3>
+                    </div>
+                    <p class="modal__text">
+                        Наш менеджер свяжемся с Вами и ответит на любые возникшие вопросы.
+                    </p>
+                    <form action="#" class="modal__form">
+                        <input type="text" class="modal__input" placeholder="Представьтесь">
+                        <input type="text" class="modal__input" placeholder="Мобильный телефон">
+                        <input type="text" class="modal__input" placeholder="Ваш Email">
+                        <button type="submit" class="modal__submit page-btn">
+                            Оставить заявку
+                        </button>
+                        <p class="modal__form-text">
+                            Нажимая на кнопку, я даю согласие на обработку своих персональных данных
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal_wide" data-modal="apartaments">
+        <div class="modal__overlay">
+            <div class="modal__wrapper">
+                <div class="modal__head">
+                    <div class="modal__close">
+                        <svg class="icon-svg">
+                            <use xlink:href="./img/svg/sprite.svg#close"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__pic">
+                        <img src="img/kvartira-1.jpg" alt="">
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__title">
+                            <h3>Понравилась квартира?</h3>
+                        </div>
+                        <p class="modal__text">
+                            Оставьте свои данные и наш менеджер свяжется с Вами в ближайшее время.
+                        </p>
+                        <form action="#" class="modal__form">
+                            <input type="text" class="modal__input" placeholder="Представьтесь">
+                            <input type="text" class="modal__input" placeholder="Мобильный телефон">
+                            <input type="text" class="modal__input" placeholder="Ваш Email">
+                            <button type="submit" class="modal__submit page-btn">
+                                Оставить заявку
+                            </button>
+                            <p class="modal__form-text">
+                                Нажимая на кнопку, я даю согласие на обработку своих персональных данных
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="libs/nouislider/nouislider.min.js"></script>
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

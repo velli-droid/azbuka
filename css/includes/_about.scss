@@ -1,0 +1,135 @@
+.about {
+    display: flex;
+    color: #FFF;
+    &__item {
+        position: relative;
+        display: flex;
+        padding: 80px 0;
+        flex-grow: 1;
+        z-index: 1;
+        &:first-child {
+            justify-content: flex-end;
+            .about {
+                &__content {
+                    padding-right: 100px;
+                }
+            }
+        }
+        &:last-child {
+            .about {
+                &__content {
+                    padding-left: 100px;
+                }
+            }
+        }
+    }
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__content {
+        max-width: calc(580px - 0.75rem);
+    }
+    &__title {
+        position: relative;
+        margin-bottom: 70px;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -30px;   
+            width: 60px;
+            border-bottom: 2px solid #fff;
+        }
+    }
+    &__text {
+        p {
+            margin-bottom: 1rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        b {
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 1.8;
+        }
+    }
+}
+
+@media (max-width: 1399px) { 
+    .about {
+        &__content {
+            max-width: calc(570px - 0.75rem);
+        }
+        &__item {
+            &:first-child {
+                .about {
+                    &__content {
+                        padding-right: 50px;
+                    }
+                }
+            }
+            &:last-child {
+                .about {
+                    &__content {
+                        padding-left: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) { 
+    .about {
+        &__content {
+            max-width: calc(480px - 0.75rem);
+        }
+    }
+}
+
+@media (max-width: 991px) { 
+    .about {
+        flex-direction: column;
+        &__item {
+            padding: 40px;
+            &:first-child {
+                .about {
+                    &__content {
+                        padding-right: 0;
+                    }
+                }
+            }
+            &:last-child {
+                .about {
+                    &__content {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+        &__content {
+            width: 100%;
+            max-width: none;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 575px) {  
+    .about {
+        &__item {
+            padding: 2rem 1.25rem;
+        }
+    }
+}
